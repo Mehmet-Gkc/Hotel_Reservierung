@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body */
+body {
+  background-color: lightgray;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* header */
+header {
+  height: 4rem;
+}
+
+/* Style for navigation links */
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+/* Style for active navigation link */
+.active-link {
+  background-color: #fff;
+  color: #1976d2;
+  border-radius: 4px;
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+  background-color: lightblue;
+  color: blue;
+}
+
+/* container */
+
+.app-container {
+  position: absolute;
+  top: 6rem;
+  left: 20vw;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 4rem);
+  padding-bottom: 6rem;
+}
+
+/* footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1976d2;
+  height: 4rem;
+  width: 100vw;
+  color: white;
+}
+
+/* Styling for reservation title */
+.reservation-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for each reservation item */
+.reservation-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 100%;
+}
+.guestName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
